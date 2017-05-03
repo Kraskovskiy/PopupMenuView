@@ -88,10 +88,10 @@ public class OptionMenuView extends LinearLayout implements PopLayout.OnBulgeCha
             int leftMargin = 0, topMargin = 0;
             if (getOrientation() == HORIZONTAL) {
                 width = LayoutParams.WRAP_CONTENT;
-                leftMargin = 1;
+                leftMargin = 0;
             } else {
                 height = LayoutParams.WRAP_CONTENT;
-                topMargin = 1;
+                topMargin = 0;
             }
             int count = getChildCount();
             for (int i = 0; i < count; i++) {
